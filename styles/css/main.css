@@ -199,7 +199,7 @@ body {
 .has-bg-img {
   background: url("../../images/rock.jpg") center center;
   background-size: cover;
-  opacity: 0.85; }
+  opacity: 0.70; }
 
 .display-block {
   display: block !important; }
