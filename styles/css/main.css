@@ -1,0 +1,294 @@
+.light-blue {
+  color: #BDD5ED; }
+
+.light-blue-bg {
+  background-color: #BDD5ED; }
+
+.gray {
+  color: #778A97; }
+
+.gray-bg {
+  background-color: #778A97; }
+
+.dark-blue {
+  color: #23272E; }
+
+.dark-blue-bg {
+  background-color: #23272E; }
+
+.brown {
+  color: #60544C; }
+
+.brown-bg {
+  background-color: #60544C; }
+
+body {
+  font-family: "Fira Sans", sans-serif !important;
+  font-size: 12px; }
+
+.fira-sans-light-italic {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: italic;
+  font-weight: 300; }
+
+.fira-mono {
+  font-family: 'Fira Mono', monospace; }
+
+.fs-s5 {
+  font-size: 17px !important; }
+
+.fs-s4 {
+  font-size: 20px !important; }
+
+.fs-s3 {
+  font-size: 24px !important; }
+
+.fs-s2 {
+  font-size: 30px !important; }
+
+.fs-s1 {
+  font-size: 37px !important; }
+
+.fs-h3 {
+  font-size: 50px !important; }
+
+.fs-h2 {
+  font-size: 67px !important; }
+
+.fs-h1 {
+  font-size: 80px !important; }
+
+.fd-underline {
+  text-decoration: underline; }
+
+.fw-sb {
+  font-weight: 600 !important; }
+
+.fw-light {
+  font-weight: 300 !important; }
+
+.fw-bold {
+  font-weight: bold; }
+
+.align-left {
+  text-align: left; }
+
+.lh1 {
+  line-height: 1.1 !important; }
+
+.pt0 {
+  padding-top: 0px !important; }
+
+.pb0 {
+  padding-bottom: 0px !important; }
+
+.pr0 {
+  padding-right: 0px !important; }
+
+.pl0 {
+  padding-left: 0px !important; }
+
+.pt1 {
+  padding-top: 8px !important; }
+
+.pb1 {
+  padding-bottom: 8px !important; }
+
+.pr1 {
+  padding-right: 8px !important; }
+
+.pl1 {
+  padding-left: 8px !important; }
+
+.pt2 {
+  padding-top: 16px !important; }
+
+.pb2 {
+  padding-bottom: 16px !important; }
+
+.pr2 {
+  padding-right: 16px !important; }
+
+.pl2 {
+  padding-left: 16px !important; }
+
+.pt3 {
+  padding-top: 24px !important; }
+
+.pb3 {
+  padding-bottom: 24px !important; }
+
+.pr3 {
+  padding-right: 24px !important; }
+
+.pl3 {
+  padding-left: 24px !important; }
+
+.pt4 {
+  padding-top: 32px !important; }
+
+.pb4 {
+  padding-bottom: 32px !important; }
+
+.pr4 {
+  padding-right: 32px !important; }
+
+.pl4 {
+  padding-left: 32px !important; }
+
+.mt0 {
+  margin-top: 0px !important; }
+
+.mb0 {
+  margin-bottom: 0px !important; }
+
+.mr0 {
+  margin-right: 0px !important; }
+
+.ml0 {
+  margin-left: 0px !important; }
+
+.mt1 {
+  margin-top: 8px !important; }
+
+.mb1 {
+  margin-bottom: 8px !important; }
+
+.mr1 {
+  margin-right: 8px !important; }
+
+.ml1 {
+  margin-left: 8px !important; }
+
+.mt2 {
+  margin-top: 16px !important; }
+
+.mb2 {
+  margin-bottom: 16px !important; }
+
+.mr2 {
+  margin-right: 16px !important; }
+
+.ml2 {
+  margin-left: 16px !important; }
+
+.mt3 {
+  margin-top: 24px !important; }
+
+.mb3 {
+  margin-bottom: 24px !important; }
+
+.mr3 {
+  margin-right: 24px !important; }
+
+.ml3 {
+  margin-left: 24px !important; }
+
+.mt4 {
+  margin-top: 32px !important; }
+
+.mb4 {
+  margin-bottom: 32px !important; }
+
+.mr4 {
+  margin-right: 32px !important; }
+
+.ml4 {
+  margin-left: 32px !important; }
+
+.has-bg-img {
+  background: url("../../images/rock.jpg") center center;
+  background-size: cover;
+  opacity: 0.85; }
+
+.display-block {
+  display: block !important; }
+
+.custom-button {
+  background-color: #23272E;
+  color: #BDD5ED;
+  border: 2px solid #BDD5ED; }
+
+.custom-button:hover {
+  background-color: #BDD5ED;
+  color: #23272E; }
+
+.custom-list {
+  list-style-type: circle !important; }
+
+.divider {
+  max-height: 32px; }
+
+.text-link {
+  font-variant-caps: small-caps;
+  -moz-font-feature-settings: "smcp";
+  -webkit-font-feature-settings: "smcp";
+  font-feature-settings: "smcp"; }
+
+.text-link:hover {
+  text-decoration: underline; }
+
+.center-with-margin {
+  margin: 0 auto; }
+
+.icon-links {
+  cursor: pointer;
+  color: #BDD5ED; }
+
+.icon-links {
+  cursor: pointer;
+  color: #BDD5ED; }
+
+.icon-links:hover {
+  color: #81afdd; }
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */ }
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d; }
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg); }
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; }
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black; }
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #23272E;
+  color: white;
+  transform: rotateY(180deg); }
+
+.card-image {
+  width: 400px;
+  height: 400px; }
+
+.card-text {
+  justify-content: center;
+  text-align: center;
+  width: 100%; }
+
+.box-shadow {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }

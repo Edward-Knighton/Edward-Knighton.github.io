@@ -1,0 +1,364 @@
+@charset "utf-8";
+
+$family-sans-serif: 'Fira Sans', sans-serif;
+// ===== COLORS =====
+
+$light-blue: #BDD5ED;
+$gray: #778A97;
+$dark-blue: #23272E;
+$brown: #60544C;
+
+// Setting of colors
+.light-blue {
+    color: $light-blue;
+}
+.light-blue-bg {
+    background-color: $light-blue;
+}
+.gray {
+    color: $gray;
+}
+.gray-bg {
+    background-color: $gray;
+}
+.dark-blue {
+    color: $dark-blue;
+}
+.dark-blue-bg {
+    background-color: $dark-blue;
+}
+.brown {
+    color: $brown;
+}
+.brown-bg {
+    background-color: $brown
+}
+
+// ===== END COLORS =====
+
+// ===== FONTS =====
+body{
+    font-family: 'Fira Sans', sans-serif!important;
+    font-size: 12px;
+}
+.fira-sans-light-italic {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.fira-mono {
+    font-family: 'Fira Mono', monospace;
+}
+
+.fs-s5 {
+    font-size: 17px!important;
+}
+.fs-s4 {
+    font-size: 20px!important;
+}
+.fs-s3 {
+    font-size: 24px!important;
+}
+.fs-s2 {
+    font-size: 30px!important;
+}
+.fs-s1 {
+    font-size: 37px!important;
+}
+.fs-h3 {
+    font-size: 50px!important;
+}
+.fs-h2 {
+    font-size: 67px!important;
+}
+.fs-h1 {
+    font-size: 80px!important;
+}
+
+.fd-underline {
+    text-decoration: underline;
+}
+
+.fw-sb {
+    font-weight: 600!important;
+}
+
+.fw-light {
+    font-weight: 300!important;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.lh1 {
+    line-height: 1.1!important;
+}
+
+// ===== END FONTS =====
+
+
+
+// ===== SPACING =====
+$size0: 0px;
+$size1: 8px;
+$size2: 16px;
+$size3: 24px;
+$size4: 32px;
+
+.pt0 {
+    padding-top: $size0!important;
+}
+.pb0 {
+    padding-bottom: $size0!important;
+}
+.pr0 {
+    padding-right: $size0!important;
+}
+.pl0 {
+    padding-left: $size0!important;
+}
+
+.pt1 {
+    padding-top: $size1!important;
+}
+.pb1 {
+    padding-bottom: $size1!important;
+}
+.pr1 {
+    padding-right: $size1!important;
+}
+.pl1 {
+    padding-left: $size1!important;
+}
+
+.pt2 {
+    padding-top: $size2!important;
+}
+.pb2 {
+    padding-bottom: $size2!important;
+}
+.pr2 {
+    padding-right: $size2!important;
+}
+.pl2 {
+    padding-left: $size2!important;
+}
+
+.pt3 {
+    padding-top: $size3!important;
+}
+.pb3 {
+    padding-bottom: $size3!important;
+}
+.pr3 {
+    padding-right: $size3!important;
+}
+.pl3 {
+    padding-left: $size3!important;
+}
+
+.pt4 {
+    padding-top: $size4!important;
+}
+.pb4 {
+    padding-bottom: $size4!important;
+}
+.pr4 {
+    padding-right: $size4!important;
+}
+.pl4 {
+    padding-left: $size4!important;
+}
+
+.mt0 {
+    margin-top: $size0!important;
+}
+.mb0 {
+    margin-bottom: $size0!important;
+}
+.mr0 {
+    margin-right: $size0!important;
+}
+.ml0 {
+    margin-left: $size0!important;
+}
+
+.mt1 {
+    margin-top: $size1!important;
+}
+.mb1 {
+    margin-bottom: $size1!important;
+}
+.mr1 {
+    margin-right: $size1!important;
+}
+.ml1 {
+    margin-left: $size1!important;
+}
+
+.mt2 {
+    margin-top: $size2!important;
+}
+.mb2 {
+    margin-bottom: $size2!important;
+}
+.mr2 {
+    margin-right: $size2!important;
+}
+.ml2 {
+    margin-left: $size2!important;
+}
+
+.mt3 {
+    margin-top: $size3!important;
+}
+.mb3 {
+    margin-bottom: $size3!important;
+}
+.mr3 {
+    margin-right: $size3!important;
+}
+.ml3 {
+    margin-left: $size3!important;
+}
+
+.mt4 {
+    margin-top: $size4!important;
+}
+.mb4 {
+    margin-bottom: $size4!important;
+}
+.mr4 {
+    margin-right: $size4!important;
+}
+.ml4 {
+    margin-left: $size4!important;
+}
+
+// ===== END SPACING =====
+
+// ===== CUSTOM CLASSES =====
+
+.has-bg-img { 
+    background: url('../../images/rock.jpg')center center; 
+    background-size:cover; 
+    opacity: 0.85;
+}
+
+.display-block {
+    display: block!important;
+}
+
+.custom-button {
+    background-color: $dark-blue;
+    color: $light-blue;
+    border: 2px solid $light-blue;
+}
+.custom-button:hover {
+    background-color: $light-blue; 
+    color: $dark-blue;
+}
+.custom-list {
+    list-style-type: circle!important;
+}
+.divider {
+    max-height: 32px;
+}
+.text-link {
+    font-variant-caps: small-caps;
+    -moz-font-feature-settings: "smcp";
+    -webkit-font-feature-settings: "smcp";
+    font-feature-settings: "smcp";
+}
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.center-with-margin {
+    margin: 0 auto
+}
+
+.icon-links {
+    cursor: pointer;
+    color: $light-blue;
+}
+.icon-links {
+    cursor: pointer;
+    color: $light-blue;
+}
+
+.icon-links:hover {
+    color: #81afdd;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: $dark-blue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+.card-image {
+    width:400px;
+    height:400px;
+}
+
+.card-text {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.box-shadow{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+}
+
+// ===== END CUSTOM CLASSES =====
+
+//========= DO NOT WRITE BELOW THIS LINE ==========
+
+// to compile:
+// sass --sourcemap=none styles/scss/main.scss:styles/css/main.css --trace
