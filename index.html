@@ -166,16 +166,16 @@
     <section id="modals" class="hero is-fullheight mb0">
       <div class="modal" v-bind:class="{ 'is-active': modal1 }">
           <div class="modal-background"></div>
-          <div class="modal-card">
+          <div class="modal-card modal-width">
             <header class="modal-card-head">
-              <p class="modal-card-title">KTP.life</p>
+              <p class="modal-card-title fs-s3">KTP.life</p>
               <button v-on:click="modal1change" class="delete" aria-label="close"></button>
             </header>
             <section class="modal-card-body">
               <div class="content">
                 <img src="./images/KTP-Onboard-Frames.png" alt="ktpoints-wireframes" class="">
-                <h1>Intro</h1>
-                <p>
+                <h1 class="fs-s4">Intro</h1>
+                <p class="fs-s5">
                     During Spring Break my Junior Year, some friends from KTP and
                     I attended the University of Cincinatti's hackathon RevolutionUC.
                     Originally we created the beginnings of a  react-native mobile 
@@ -187,8 +187,8 @@
                     proved to be too much, so we decided to refactor it into a 
                     mobile-first progressive web app built using VueJS. 
                 </p>
-                <h2>What it Does</h2>
-                <p>
+                <h2 class="fs-s4">What it Does</h2>
+                <p class="fs-s5">
                     We wanted this application to serve somewhat as a closed 
                     social network for members of  KTP. Also we hoped that it 
                     would help us manage and market to new members during the 
@@ -197,8 +197,8 @@
                     that be seeing / checking into upcoming events. Managing your
                      points and meetings, or finding information on the other brothers.
                 </p>
-                <h2>How it's built</h2>
-                <p>
+                <h2 class="fs-s4"> How it's built</h2>
+                <p class="fs-s5">
                     A lot of the decisions we made in the implementation of this
                      application we're based around ease of enabling new and 
                      inexperienced members to be able to contribute as quickly 
@@ -213,8 +213,8 @@
                       teams such as ourselves since it allows any member to quickly 
                       preview what the status of other branches being worked on are. 
                 </p>
-                <h2>Conclusion</h2>
-                <p>
+                <h2 class="fs-s4">Conclusion</h2>
+                <p class="fs-s5">
                     I have learned an incredible amount about what it means to 
                     design and implement an application by being the lead of 
                     this team throughout this process. Not only have my software 
@@ -224,24 +224,26 @@
               </div>
             </section>
             <footer class="modal-card-foot">
-              <a class="button is-success" target="_blank" href="https://github.com/ktp-dev/KTPoints">Github Repo</a>
-              <a class="button" target="_blank" href="https://ktp.life">Go to Site</a>
-              <a class="button" target="_blank" href="http://bit.ly/KTPLife">Knowledge Base</a>
+              <div class="columns">
+                  <a class="button is-success column mb1 modal-button" target="_blank" href="https://github.com/ktp-dev/KTPoints">Github Repo</a>
+                  <a class="button column mb1 modal-button" target="_blank" href="https://ktp.life">Go to Site</a>
+                  <a class="button column mb1 modal-button" target="_blank" href="http://bit.ly/KTPLife">Knowledge Base</a>
+              </div>
             </footer>
           </div>
       </div>
       <div class="modal" v-bind:class="{ 'is-active': modal2 }">
           <div class="modal-background"></div>
-          <div class="modal-card">
+          <div class="modal-card modal-width">
             <header class="modal-card-head">
-              <p class="modal-card-title">XplrA2</p>
+              <p class="modal-card-title fs-s3">XplrA2</p>
               <button v-on:click="modal2change" class="delete" aria-label="close"></button>
             </header>
             <section class="modal-card-body">
               <div class="content">
                   <img src="./images/XplrA2-Frames.png" alt="XplrA2-wireframes" class="">
-                  <h2>Inspiration</h2>
-                  <p>
+                  <h2 class="fs-s4">Inspiration</h2>
+                  <p class="fs-s5">
                       When we considered the theme of "building a better Ann Arbor,"
                        we quickly agreed that getting around the city was something 
                        that everyone struggles with and that we could find innovative 
@@ -255,8 +257,8 @@
                        people's enjoyment our wonderful city once their parking 
                        problems are a thing of the past!
                   </p>
-                  <h2>What it does</h2>
-                  <p>
+                  <h2 class="fs-s4">What it does</h2>
+                  <p class="fs-s5">
                     XplrA2 uses crowdsourced data to provide comprehensive 
                     insight into parking availability and options in Ann Arbor. 
                     We cover everything from parking garages and lots to street 
@@ -270,8 +272,8 @@
                     information for drivers, bicyclists, and pedestrians, and we 
                     even send you SMS reminders about your parking spot!
                   </p>
-                  <h2>How we built it</h2>
-                  <p>
+                  <h2 class="fs-s4">How we built it</h2>
+                  <p class="fs-s5">
                     We started out by brainstorming any and all features that we 
                     thought could be of use to those exploring the Ann Arbor area, 
                     and then thinned those results to the most valuable, most achievable 
@@ -289,6 +291,12 @@
                     up. And wire we did, for many many hours, eventually realizing 
                     all of our interfaces in Vue/Bulma bound to data from Firebase!
                   </p>
+                  <h2 class="fs-s4">Disclaimer</h2>
+                  <p class="fs-s5">
+                    Since this was built during a hackathon we unfortunately can no longer support
+                    keeping the application running. However, you can still view the github 
+                    below and the screenshots at the top of this section!
+                  </p>
               </div>
             </section>
             <footer class="modal-card-foot">
@@ -298,15 +306,15 @@
       </div>
       <div class="modal" v-bind:class="{ 'is-active': modal3 }">
         <div class="modal-background"></div>
-        <div class="modal-card">
+        <div class="modal-card modal-width">
           <header class="modal-card-head">
-            <p class="modal-card-title">Kappa Theta Pi Marketing Site</p>
+            <p class="modal-card-title fs-s3">Kappa Theta Pi Marketing Site</p>
             <button v-on:click="modal3change" class="delete" aria-label="close"></button>
           </header>
           <section class="modal-card-body">
             <div class="content">
-              <h1>About</h1>
-              <p>Although this project is incredibly less expansive than my other 
+              <h1 class="fs-s4">About</h1>
+              <p class="fs-s5">Although this project is incredibly less expansive than my other 
                 two projects, it was still really fun to  work  on a team to 
                 design it as well as learn more about how to write marketing copy. 
                 <br>
@@ -323,8 +331,10 @@
             </div>
           </section>
           <footer class="modal-card-foot">
-            <a class="button is-success" href="https://github.com/ktp-dev/ktp-web" target="_blank">Github Repo</a>
-            <a class="button" target="_blank" href="https://kappathetapi.com">Go to Site</a>
+            <div class="columns">
+                <a class="button is-success column mb1 modal-button" href="https://github.com/ktp-dev/ktp-web" target="_blank">Github Repo</a>
+                <a class="button column mb1 modal-button" target="_blank" href="https://kappathetapi.com">Go to Site</a>
+            </div>
           </footer>
         </div>
       </div>

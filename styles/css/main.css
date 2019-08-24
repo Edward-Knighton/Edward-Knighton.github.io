@@ -58,6 +58,30 @@ body {
 .fs-h1 {
   font-size: 80px !important; }
 
+@media only screen and (max-device-width: 600px) {
+  .fs-s5 {
+    font-size: 12px !important; }
+
+  .fs-s4 {
+    font-size: 15px !important; }
+
+  .fs-s3 {
+    font-size: 17px !important; }
+
+  .fs-s2 {
+    font-size: 21px !important; }
+
+  .fs-s1 {
+    font-size: 24px !important; }
+
+  .fs-h3 {
+    font-size: 30px !important; }
+
+  .fs-h2 {
+    font-size: 37px !important; }
+
+  .fs-h1 {
+    font-size: 50px !important; } }
 .fd-underline {
   text-decoration: underline; }
 
@@ -314,3 +338,11 @@ body {
 
 .box-shadow {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }
+
+.modal-width {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.modal-button {
+  display: inline-flex !important; }
